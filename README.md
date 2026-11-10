@@ -2,6 +2,7 @@
 
 Popis za kupnju po trgovinama. Izrađeno na temelju početnog projekta autorice (React + Vite).
 
+Autor: Gorana Agić
 
 ## Entiteti (CRUD nad oba)
 
@@ -14,7 +15,7 @@ Trgovina s artiklima ne može se obrisati dok se ne obrišu njezini artikli. Art
 
 Početna (popis za kupnju po trgovinama: artikli s kvačicom, iznos po trgovini, ukupan procijenjeni trošak i „Označi sve kupljeno"), Artikli i Trgovine.
 
-Početni podaci su izmišljeni (demo). Podaci se spremaju u `localStorage` preglednika.
+Početni podaci su izmišljeni. Podaci se spremaju u `localStorage` preglednika.
 
 ## Tehnologije
 

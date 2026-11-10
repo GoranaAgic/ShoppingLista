@@ -95,6 +95,7 @@ em { color: var(--crvena); font-style: normal; font-size: .85rem; }
 .trgovina h2 span { font-size: .85rem; font-weight: 500; margin-left: 6px; }
 .trgovina ul { list-style: none; margin: 0; padding: 0; }
 .trgovina li { display: grid; grid-template-columns: 1fr auto auto; gap: 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--linija); }
+.trgovina li input[type="checkbox"] { flex: none; }
 .trgovina li label { flex-direction: row; align-items: center; gap: 10px; color: var(--tekst); font-size: 1rem; }
 .trgovina li.gotov label span { text-decoration: line-through; color: var(--prigusen); }
 .podnozje-kartice { display: flex; justify-content: space-between; align-items: center; padding-top: 14px; }

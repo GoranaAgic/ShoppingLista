@@ -28,7 +28,7 @@ export default function Artikli() {
     function validate(v) {
         const g = {}
         if (!(Number(v.kolicina) > 0)) g.kolicina = 'Količina mora biti veća od 0.'
-        if (!(Number(v.cijena) > 0)) g.cijena = 'Cijena mora biti veća od 0.'
+        if (!(Number(v.cijena) >= 0)) g.cijena = 'Cijena ne smije biti negativna.'
         return g
     }
 
